@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=WindSong:wght@400;500&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #2F303A;
+    font-family: Poppins, sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    min-height: 100vh;
+}
+
+.full-height-grow {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-name {
+    display: flex;
+    align-items: center;
+    font-size: 3em;
+    color: #DFAF1F;
+    text-decoration: none;
+}
+
+.brand-logo-name {
+    margin-left: 1rem;
+}
+
+.main-nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav ul li {
+    font-size: 1.5em;
+}
+
+.main-nav a {
+    color: inherit;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.main-nav a:hover {
+    color: #adadad;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+    background-color: #202027;
+    padding: 0;
+}
+
+.container {
+   
+    
+    padding: 40px;
+}
+
+.title {
+    font-size:6em;
+    font-weight: 400;
+}
+
+.button {
+    width: 587px;
+    height: 156px;
+    line-height:156px;
+    background-color: #F62AA0;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    font-size: 48px;
+}
+
+#contactus {
+    position: relative;
+    margin-left: 160px;
+    top: -52px;
+    z-index: 1;
+}
+
+#seeinside {
+    position: relative;
+    margin-left: 160px;
+    top: 14px;
+    z-index: 1;
+}
+
+.fabulous {
+    font-family: WindSong;
+    color: #F62AA0;
+}
+
+
+

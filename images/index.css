@@ -1,0 +1,257 @@
+.home-main-section {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.model1 {
+    width: 891px;
+    height:760px;
+}
+
+@media (max-width: 1557px) {
+    .home-main-section .img-wrapper {
+        display: none;
+    }
+}
+
+#purple {
+    position: absolute;
+    width: 509px;
+    height: 509px;
+    left: 3vw;
+    top: 57vh;
+    background: rgba(160, 106, 180, 0.1);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+#pink {
+    position: absolute;
+    width: 509px;
+    height: 509px;
+    margin-left: -82px;
+    background: rgba(246, 42, 160, 0.1);
+    border-radius: 50%;
+    z-index: -1;
+    top: 87vh;
+}
+
+#green {
+    position: absolute;
+    width: 1306px;
+    height: 1306px;
+    background: rgba(38, 223, 208, 0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 30vw;
+    top: 30vh;
+    padding: 200px;
+    font-size: 2.25em;
+}
+
+.right-title {
+    text-align:right;
+    margin-right: 196px;
+    padding-top:70px;
+}
+
+.left-title {
+    text-align:left;
+    margin-left:155px;
+    padding-top:150px;
+}
+
+.model2 {
+    height: 787px;
+    width: 673px;
+    left: 53vw;
+    position: relative;
+    z-index: 1;
+    top: 18vh;
+}
+
+.model3 {
+    left: -5vw;
+    position: relative;
+    z-index: 1;
+    top: 21vh;
+}
+
+.model4 {
+    left: 10vw;
+    position: relative;
+    z-index: 1;
+    top: 21vh;
+}
+
+#meetthestylists {
+    left: 56vw;
+    position: relative;
+    top: 10vh;
+    z-index: 1;
+}
+
+#green1 {
+    position: absolute;
+    width: 1306px;
+    height: 1306px;
+    background: rgba(38, 223, 208, 0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    right: 31vw;
+    top: 200vh;
+    padding: 200px;
+    font-size: 2.25em;
+}
+
+#green2 {
+    position: absolute;
+    width: 1306px;
+    height: 1306px;
+    background: rgba(38, 223, 208, 0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 30vw;
+    top: 370vh;
+    padding: 200px;
+    font-size: 2.25em;
+}
+
+#purple1 {
+    position: absolute;
+    width: 509px;
+    height: 509px;
+    right: 3vw;
+    top: 227vh;
+    background: rgba(160, 106, 180, 0.1);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+#pink1 {
+    position: absolute;
+    width: 509px;
+    height: 509px;
+    margin-left: -82px;
+    background: rgba(246, 42, 160, 0.1);
+    border-radius: 50%;
+    z-index: -1;
+    right: 0;
+    top: 257vh;
+}
+
+#purple2 {
+    position: absolute;
+    width: 509px;
+    height: 509px;
+    left: 3vw;
+    top: 396vh;
+    background: rgba(160, 106, 180, 0.1);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+#pink2 {
+    position: absolute;
+    width: 509px;
+    height: 509px;
+    margin-left: -82px;
+    background: rgba(246, 42, 160, 0.1);
+    border-radius: 50%;
+    z-index: -1;
+    top: 428vh;
+}
+
+#purple3 {
+    position: absolute;
+    width: 509px;
+    height: 509px;
+    right: 3vw;
+    top: 546vh;
+    background: rgba(160, 106, 180, 0.1);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+#pink3 {
+    position: absolute;
+    width: 509px;
+    height: 509px;
+    margin-left: -82px;
+    background: rgba(246, 42, 160, 0.1);
+    border-radius: 50%;
+    z-index: -1;
+    right: 0;
+    top: 573vh;
+}
+
+#model4 {
+    height: 586px;
+    width: 676px;
+    left: 53vw;
+}
+
+#green3 {
+    position: absolute;
+    width: 1306px;
+    height: 1306px;
+    background: rgba(38, 223, 208, 0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    right: 31vw;
+    top: 517vh;
+    padding: 200px;
+    font-size: 2.25em;
+}
+
+#green4 {
+    position: absolute;
+    width: 1306px;
+    height: 1306px;
+    background: rgba(38, 223, 208, 0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 30vw;
+    top: 669vh;
+    padding: 200px;
+    font-size: 2.25em;
+}
+
+#purple4 {
+    position: absolute;
+    width: 509px;
+    height: 509px;
+    left: 3vw;
+    top: 698vh;
+    background: rgba(160, 106, 180, 0.1);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+#pink4 {
+    position: absolute;
+    width: 509px;
+    height: 509px;
+    margin-left: -82px;
+    background: rgba(246, 42, 160, 0.1);
+    border-radius: 50%;
+    z-index: -1;
+    top: 731vh;
+}
